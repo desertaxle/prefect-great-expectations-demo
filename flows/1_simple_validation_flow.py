@@ -6,6 +6,6 @@ validation_task = RunGreatExpectationsValidation()
 
 with Flow("ge_example") as flow:
     # Run the task within a flow
-    validation_task(checkpoint_name="my_checkpoint_pass")
+    validation_task(checkpoint_name="my_checkpoint")
 
 flow.run()
