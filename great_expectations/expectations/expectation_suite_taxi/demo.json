@@ -49,8 +49,8 @@
       "expectation_type": "expect_column_max_to_be_between",
       "kwargs": {
         "column": "passenger_count",
-        "max_value": 6,
-        "min_value": 7
+        "max_value": 7,
+        "min_value": 6
       },
       "meta": {}
     },
@@ -58,8 +58,8 @@
       "expectation_type": "expect_column_mean_to_be_between",
       "kwargs": {
         "column": "passenger_count",
-        "max_value": 1.5,
-        "min_value": 2.5
+        "max_value": 2.5,
+        "min_value": 1.5
       },
       "meta": {}
     },
@@ -67,8 +67,8 @@
       "expectation_type": "expect_column_median_to_be_between",
       "kwargs": {
         "column": "passenger_count",
-        "max_value": 1.0,
-        "min_value": 2.0
+        "max_value": 2.0,
+        "min_value": 1.0
       },
       "meta": {}
     },
@@ -131,15 +131,6 @@
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "passenger_count"
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
-      "kwargs": {
-        "column": "passenger_count",
-        "max_value": 0.0005,
-        "min_value": 0.001
       },
       "meta": {}
     },
