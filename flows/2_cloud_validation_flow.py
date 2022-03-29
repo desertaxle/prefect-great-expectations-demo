@@ -35,6 +35,6 @@ with Flow("Prefect Cloud Validation") as flow:
 
     # Validate the data ✅
     run_validation(
-        checkpoint_name="my_checkpoint_pass",
+        checkpoint_name="my_checkpoint",
         context_root_dir=ge_project_path,
     )
